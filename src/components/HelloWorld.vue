@@ -17,7 +17,7 @@
       return {
         lists: [
           'First', 'Second', 'Third', 'Fourth',
-          'Fifth', 'Sixth', 'Seventh', 'Eighth'
+          'Fifth', 'Sixth', 'Seventh'
         ]
       }
     }

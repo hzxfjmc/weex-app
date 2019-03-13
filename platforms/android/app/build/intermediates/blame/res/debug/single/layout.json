@@ -32,28 +32,28 @@
         "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\layout\\notification_template_big_media.xml"
     },
     {
         "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\26.1.0\\res\\layout\\notification_template_big_media.xml"
+        "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
         "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "D:\\weex-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip.xml",
