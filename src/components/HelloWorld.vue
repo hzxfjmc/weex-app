@@ -1,55 +1,48 @@
 <template>
-    <list>
-      <header>
-        <text class="banner">HEADER</text>
-      </header>
-      <cell v-for="index in lists" :key="index">
-        <div class="panel">
-          <text class="text">{{index}}</text>
-        </div>
-      </cell>
-    </list>
+    <div class="navlist">
+      <div class="nav" v-for="(item,index) in navList" :key="index">
+        <text class="name">{{item.name}}</text>
+      </div>
+    </div>
 </template>
 
 <script>
-  export default {
-    data () {
-      return {
-        lists: [
-          'First', 'Second', 'Third', 'Fourth',
-          'Fifth', 'Sixth', 'Seventh'
-        ]
-      }
+export default {
+  data() {
+    return {
+      navList: [
+        { name: "首页" },
+        { name: "订单" },
+        { name: "购物车" },
+        { name: "我的" }
+      ]
+    };
+  },
+  methods: {
+    handlerImages() {
+      console.log(123);
     }
   }
+};
 </script>
 
 <style scoped>
-  .banner {
-    width: 750px;
-    padding: 25px;
-    font-size: 60px;
-    text-align: center;
-    font-weight: bold;
-    color: #41B883;
-    background-color: rgb(162, 217, 192);
-  }
-  .panel {
-    width: 600px;
-    height: 300px;
-    margin-left: 75px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    flex-direction: column;
-    justify-content: center;
-    border-width: 2px;
-    border-style: solid;
-    border-color: rgb(162, 217, 192);
-    background-color: rgba(162, 217, 192, 0.2);
-  }
-  .text {
-    font-size: 50px;
-    text-align: center;
-    color: #41B883;
-  }
+.navlist {
+  width: 750px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  position:fixed;
+  border-width:1px;
+  bottom:0;
+  border-color:red;
+}
+.nav {
+  flex-grow:1;
+  text-align: center;
+}
+.nav .name{
+  width:100%;
+  text-align: center;
+}
 </style>
